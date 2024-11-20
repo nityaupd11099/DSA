@@ -18,7 +18,7 @@ void swap(int *x,int *y)
  *x=*y;
  *y=temp;
  }
-int LinearSearch(struct Array *arr,int key)
+void LinearSearch(struct Array *arr,int key)
 {
  int i;
  for(i=0;i<arr->length;i++)

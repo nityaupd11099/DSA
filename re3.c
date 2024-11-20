@@ -2,7 +2,7 @@
 #include <stdlib.h>
 int func (int n)
 {
- Static int x =0; // static variables in recursion
+ static int x =0; // static variables in recursion
  if(n>0)
  {
  x++;
