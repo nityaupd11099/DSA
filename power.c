@@ -18,8 +18,8 @@ int power1(int m  , int n)
 }
 int main()
 {
-    int r=power(2,9);
-    int d=power1(2,9);
+    int r=power(2,3);
+    int d=power1(2,4);
 
     printf("%d" , r) ;
     printf("%d" , d);
