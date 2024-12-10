@@ -24,5 +24,9 @@ void SelectionSort(int A[],int n)
 int main()
 { int A[10]={2,6,4,5,7,8,9,3}, n=10;
     SelectionSort(A, n);
+    for( int i=0;i<10;i++)
+    {
+        printf("%d" , A[i]);
+    }
     return 0;
 }
